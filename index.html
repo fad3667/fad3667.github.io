@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
     <script src="./index.js"></script>
     <meta charset="utf-8">
@@ -9,38 +10,22 @@
 
   <body>
     <img src="./images/image1.jpg" class="school-logo">
-
     <h1>
       My Middle School
     </h1>
+    <h2>现在时间是: <span id="time-now"></span></h2>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="http://www.nlc.cn/" target="_blank">到中国图书馆官网</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="http://www.shishitf.net/" target="_blank">到学校主页</a>
           </li>
         </ul>
       </div>
@@ -50,27 +35,87 @@
 
       </div>
 
-      <p>
-        This website introduced my middle school
-        </p>
+      <p class="article">
+        Chengdu Shishi Tianfu High School is a public boarding middle school directly under the management committee of Chengdu High-tech Zone. Chengdu Shishi Tianfu Middle School covers an area of 160 acres, with a construction area of 6,6832.7 square meters. It has a scientifically and rationally arranged gymnasium and a 400-meter standardized football stadium; a science and technology complex building with recording and broadcasting classrooms, film and television projection rooms, psychology rooms, music classrooms, and fully equipped physical and chemical laboratory.
+      </p>
 
-        <img src="">
+      <img src="">
 
-        <table>
-          <thead>
-            <th>姓名</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                sam
-              </td>
-            </tr>
-          </tbody>
-        </table>
+      <table class="table">
+        <thead>
+          <th>图片</th>
+          <th>简介</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <img src="./images/1.jpg" alt="">
+            </td>
+            <td>
+              高端创新，四维育人
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./images/2.jpg" alt="">
+            </td>
+            <td>
+              花舞乐间 · 2014 春
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./images/3.jpg" alt="">
+            </td>
+            <td>
+              花艳春色 · 2014 春
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./images/4.jpg" alt="">
+            </td>
+            <td>
+              花醉心田 · 2014 春
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./images/5.jpg" alt="">
+            </td>
+            <td>
+              花耀温暖 · 2014春
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./images/6.jpg" alt="">
+            </td>
+            <td>
+              花开有声 · 2014 春
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./images/7.jpg" alt="">
+            </td>
+            <td>
+              校园冬景·我在桥上看你
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="./images/8.jpg" alt="">
+            </td>
+            <td>
+              校园冬景·俯仰羞花
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>

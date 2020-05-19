@@ -1,3 +1,10 @@
-.navbar-brand {
-  color: #FF00FF !important;
+.article {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+.table img {
+  width: 150px;
+  height: 150px;
 }
